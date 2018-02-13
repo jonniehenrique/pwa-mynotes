@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<base href="/">
+	<meta charset="UTF-8">
+	<meta name="author" content="Jonnie Henrique | Front-end developer">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PWA MyNotes</title>
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	<link rel="stylesheet" href="css/colors.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="grey lighten-5 blue-grey-text">
+	<header id="header" class="grey lighten-4">
+		<div class="container">
+			<h1>MyNotes</h1>
+		</div>
+	</header>
+
+	<main id="main">
+		<div class="container" style="margin-bottom: 20px;">
+			<h2> Adicione sua nota </h2>
+
+			<form action="#" id="form-add-note">
+				<input type="text" placeholder="Anotações">
+				<button type="submit">
+					+
+				</button>
+			</form>
+		</div>
+
+		<div class="container">
+			<ul id="notes">
+				<li class="note-item">Nota</li>
+			</ul>
+		</div>
+	</main>
+
+	<script src="js/object.observe.polyfill.js"></script>
+	<script src="js/array.observe.polyfill.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
