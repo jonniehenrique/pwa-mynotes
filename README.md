@@ -12,3 +12,11 @@ Funcionalidades:
  
  Não implementadas:
   - Push notifications
+  
+  
+  Disponível para testes:
+   https://jonniehenrique.github.io/pwa-mynotes/
+ 
+ Testes: 
+  - Funcionamento offline
+  - Adição de app na homescreen
