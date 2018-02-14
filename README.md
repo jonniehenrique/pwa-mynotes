@@ -6,9 +6,9 @@ Funcionalidades:
  - Remoção das notas
  - Salvar notas inseridas no LocalStorage
  - Remoçao das notas no LocalStorage
+ - Criação do manifest.json
+ - Funcionamento offline
+ - Instalação no smartphone
  
  Não implementadas:
-  - Criação do manifest.json
-  - Funcionamento offline
-  - Instalação no smartphone
   - Push notifications
